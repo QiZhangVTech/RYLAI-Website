@@ -56,8 +56,32 @@ img {
   color: #fff;
 }
 
+/* Optional: section background to match site style */
+#projects {
+  padding: 7% 15%;
+  background-color: #630031;
+  /* color: #fff */
+}
+#projects h1 {
+  color: #fff; /* white */
+}
+
+/* Card image crop for consistent heights */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* 2-line clamp for teasers */
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 #applications {
-  padding: 7% 15%
+  padding: 7% 15%;
 }
 
 .feature-box {
@@ -73,6 +97,53 @@ img {
 .icon:hover {
   color: #CF4520;
 }
+
+
+/* --- Team section --- */
+/* Button/link polish inside cards */
+#team .card .btn-outline-primary {
+  border-color: #630031;
+  color: #630031;
+}
+#team .card .btn-outline-primary:hover {
+  background-color: #630031;
+  color: #fff;
+}
+
+/* Tidy the Students toggle */
+#team .btn-link {
+  color: #630031;
+  text-decoration: none;
+}
+#team .btn-link:hover {
+  text-decoration: underline;
+}
+
+.team-section {
+  padding: 7% 15%;
+  background-color: #f8f9fa; /* light contrast against your maroon sections */
+}
+
+/* Circular headshots, consistent sizing */
+.team-photo {
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0%;
+  width: 220px;
+  margin: 20px auto 0; /* center in card */
+}
+
+/* --- School logos row --- */
+.school-logo {
+  max-height: 200px;      /* consistent size */
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.school-logo:hover {
+  transform: scale(1.05);
+}
+
 
 #footer {
   text-align: center;
