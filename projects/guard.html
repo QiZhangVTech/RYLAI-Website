@@ -19,7 +19,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
-  
+
 </head>
 
 <body>
@@ -38,14 +38,14 @@
   <header class="py-5 text-white" style="background:#630031;">
     <div class="container">
       <h1 class="mb-3">GUARD</h1>
-      <p class="lead">One sentence introduction.</p>
+      <p class="lead">A Hierarchical Deep Reinforcement Learning Chatbot for Cybergrooming Prevention.</p>
     </div>
   </header>
 
   <main class="container my-5">
     <!-- Overview image -->
     <figure class="mb-4 text-center">
-      <img src="../images/guard/overall-research-structure.png" alt="Overall research structure" class="img-fluid">
+      <img src="../images/guard/Guard_1.png" alt="Overall research structure" class="figure-overview">
       <figcaption class="text-muted mt-2">Overall research structure.</figcaption>
     </figure>
 
@@ -53,10 +53,15 @@
     <article class="mb-5">
       <h2 class="h4">Full Description</h2>
       <p>
-        Detailed introduction about this project.
+        Cybergrooming poses an increasing risk to young internet users, necessitating proactive, AI-driven interventions.
+        This work introduces an adaptive chatbot GUARD that enhances teenagers' resilience against cyber-grooming through dynamic, human-like interactions tailored to individual vulnerability levels.
       </p>
       <p>
-        Publications or anyother outcomes
+        The system integrates a large language model—fine-tuned on a stage-tagged PJ dataset—with hierarchical deep reinforcement learning to enable flexible transitions across six grooming stages via both reward and context-based signals.
+        A master policy determines the current stage based on conversational cues, while six stage-specific sub-policies optimize responses by leveraging user sentiment and sub-goal achievement.
+      </p>
+      <p>
+        Performance is evaluated via simulated interactions to ensure the quality of the chatbot prior to deployment. Ultimately, this research provides an AI-driven tool for enhancing online safety education and preventing cybergrooming.
       </p>
     </article>
 
@@ -65,10 +70,10 @@
     <div id="proj-carousel" class="carousel slide mb-5" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active text-center">
-          <img src="../images/guard/figure1.png" class="d-block w-100" alt="Figure 1">
+          <img src="../images/guard/Guard_1.png" class="figure-detail" alt="Figure 1">
         </div>
         <div class="carousel-item text-center">
-          <img src="../images/guard/figure2.png" class="d-block w-100" alt="Figure 2">
+          <img src="../images/guard/Guard_2.png" class="figure-detail" alt="Figure 2">
         </div>
 
       </div>
@@ -79,6 +84,17 @@
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
+
+    <article class="mb-5">
+      <h2 class="h4">Publications</h2>
+      <p>
+        In Preparation
+      </p>
+      <p>
+        Authors: Heajun An, Qi Zhang, Minqian Liu, Xinyi Zhang, Sangwook Lee, Dilruba Showkat, Prakriti Dumaru, Sang Won Lee, Lifu Hwang, Pamela Wisniewski, Jin-Hee Cho
+      </p>
+        <!-- Link: <a class="nav-link" href="https://arxiv.org/abs/2503.05727">Arxiv</a> -->
+    </article>
 
     <a class="btn btn-outline-secondary" href="../index.html#projects">← Back to Projects</a>
   </main>
