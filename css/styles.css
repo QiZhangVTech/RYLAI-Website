@@ -56,11 +56,10 @@ img {
   color: #fff;
 }
 
-/* Optional: section background to match site style */
 #projects {
   padding: 7% 15%;
   background-color: #630031;
-  color: #fff;
+  /* color: #fff; */
 }
 
 #projects h1 {
